@@ -22,3 +22,51 @@ a {
 td.logo {
     text-align: left;
 }
+/* Контакты, О нас, Волонтеры */
+.h150 {
+    height: 150px;
+}
+.contact_inform {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+}
+.contact_inform h3 {
+    color: #6DC72A;
+}
+.contact_inform td {
+    width: 33.33%;
+}
+.contact_inform p {
+    font-size: 14px;
+    color: #999;
+    margin-top: 0;
+}
+.google_maps {
+    width: 900px;
+    margin: 0 auto;
+}
+/* Форма */
+.form {
+    margin: 0 auto;
+    text-align: center;
+}
+.form input, .form select {
+    margin: 10px 20px;
+    border: 1px solid #999;
+    width: 150px;
+    height: 20px;
+}
+select {
+    height: 24px !important;
+}
+input[type="submit"] {
+    background: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+}
+input[type="submit"]:hover {
+    background: #999;
+    color: white;
+}
